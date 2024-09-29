@@ -1,0 +1,12 @@
+.vscode
+node_modules
+.hintrc
+dist
+.parcel-cache
+app
+temp
+*.tfvars
+keys
+.terraform
+providers
+random_data.js

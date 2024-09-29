@@ -1,0 +1,30 @@
+{
+  "name": "car-rental-system",
+  "version": "1.0.0",
+  "description": "",
+  "default": "home.html",
+  "scripts": {
+    "start": "parcel website/src/html/home.html",
+    "build": "parcel build  ./website/src/html/*.html --public-url ./ --dist-dir ./app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "regenerator-runtime": "^0.13.11",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "parcel": "^2.8.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}

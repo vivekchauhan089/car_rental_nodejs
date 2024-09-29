@@ -1,0 +1,70 @@
+@import "general.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  border: none;
+  color: var(--white-main);
+}
+
+.form-container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1rem 2rem 2rem rgba(120, 83, 83, 0.12);
+  width: auto;
+  height: auto;
+  padding: 2.4rem;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  transform: scale(1.3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.form-control {
+  font-size: 1.4rem;
+  border-radius: 9px;
+  border: 0.2rem solid #9197ae39;
+}
+
+.form-control:focus {
+  border: 0.2rem solid #9197ae39;
+}
+
+.logo {
+  width: 50%;
+  transform: scale(1.3);
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  object-fit: fill;
+  position: fixed;
+  overflow: hidden;
+  -webkit-filter: brightness(40%);
+  filter: brightness(40%);
+}
+
+.btn-outline-secondary {
+  border-color: transparent;
+}
